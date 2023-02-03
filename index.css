@@ -65,6 +65,7 @@ header h1 {
 header p {
   display: flex;
   justify-content: center;
+  margin-top: 12px;
 }
 
 section {
@@ -155,6 +156,8 @@ section {
 /* brand section start */
 #brand-main h2 {
   margin-top: -259px;
+  justify-content: center;
+  display: flex;
 }
 
 #brand-container {
