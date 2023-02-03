@@ -18,7 +18,7 @@
   .relative-container {
     position: relative;
     display: flex;
-    margin-right: 7px;
+    justify-content: flex-end;
   }
 
   header h1 {
