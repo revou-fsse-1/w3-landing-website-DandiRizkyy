@@ -18,14 +18,17 @@ Week 3 Assignment Links : [Link](https://dandirizky-week-3-assigntment.netlify.a
 
 ---
 
-Laptop Mode
 ![Laptop Mode](/assets/laptop-mode.png)
 
-Tablet Mode
+Laptop Mode
+
 ![Tablet Mode](/assets/tablet-mode.png)
 
-Phone Mode
+Tablet Mode
+
 ![Phone Mode](/assets/phone-mode.png)
+
+Phone Mode
 
 ---
 
