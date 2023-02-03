@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dandi Rizky Week 3 Landing Page</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <!-- Navbar Start -->
     <nav>
+      <span class="mobile">
+        <img
+          src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+          alt="hamburger button"
+        />
+      </span>
       <span class="relative-container">
         <img
           src="/assets/logo.png"
@@ -18,12 +25,12 @@
           height="100"
         />
       </span>
-      <ul>
+      <ul class="desktop">
         <li><a href="#">Home</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">About</a></li>
       </ul>
-      <button>Login</button>
+      <button class="desktop">Login</button>
     </nav>
     <!-- Navbar End -->
 
@@ -35,9 +42,7 @@
         <header>
           <h1>Dia Menunggu Untuk Dibawa Pulanng!</h1>
           <p>Adopsi Kucing Terbaikmu di CATto Sekarang Juga ~</p>
-        </header>
-        <!-- Header End -->
-
+          
         <!-- Two Button Start -->
         <div id="hero-button">
           <button id="hero-button-1">Pilih Kucingmu</button>
@@ -45,36 +50,119 @@
         </div>
         <!-- Two Button End -->
 
-        <!-- Grid Section Start -->
-        <div class="grid-container">
+         <!-- Grid Section Start -->
+         <div class="grid-container">
           <div id="item-1">
             <img
-              src="/assets/foto-kucing-1."
+              src="/assets/foto-kucing-1.jpg"
               alt="picture of cats looking at the camera"
             />
           </div>
           <div id="item-2">
             <img
-              src="/assets/foto-kucing-2."
+              src="/assets/foto-kucing-2.jpg"
               alt="picture of cats with butterflies on its nose"
             />
           </div>
           <div id="item-3">
             <img
-              src="/assets/foto-kucing-3."
+              src="/assets/foto-kucing-3.jpg"
               alt="picture of cats looking at top and seems confused about things"
-            />
-          </div>
-          <div id="item-4">
-            <img
-              src="/assets/foto-kucing-4."
-              alt="picture of cats sleeping peacefully and calmly"
             />
           </div>
         </div>
         <!-- Grid Section End -->
+        </header>
+        <!-- Header End -->
       </section>
       <!-- Hero Section End -->
+
+      <!-- brand Section Start -->
+      <section>
+        <h2>Brand</h2>
+          <div id="brand-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/id/c/c4/Friskies.png"
+              alt="purina friskies cat food"
+            />
+            <img
+              src="https://allvectorlogo.com/img/2017/09/purina-pro-plan-logo.png"
+              alt="purina pro plan cat food"
+            />
+            <img
+              src="https://pbs.twimg.com/profile_images/571885656486334464/RR4Mtham_400x400.png"
+              alt="whiskas cat food"
+            />
+          </div>
+      </section>
+      <!-- brand Section End -->
+
+      <!-- Video Section Start-->
+      <section id="video-section">
+        <h2>Simak ini juga yuk</h2>
+        <div id="flex-container-video">
+          <iframe
+          width="553"
+          height="280"
+          src="https://www.youtube.com/embed/3h5Mw_vQWpA"
+          title="Belum Banyak Yang Tahu! 5 Fakta Menarik Kucing Imut British Shorthair Ini"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        </div>
+      </section>
+      <!-- Video Section End-->
+
+      <!-- Form Section Start-->
+      <section id="form-section">
+        
+        <h2>Opini Kalian Tentang Jenis Kucing Yang Kalian Suka</h2>
+        
+        <form action="#">
+          <fieldset>
+            <legend>Data Diri</legend>
+            <div>
+              <label for="Nama">Nama</label>
+              <input type="text" id="Nama" required />
+            </div>
+            <div>
+              <label for="Email">Email</label>
+              <input type="text" id="Email" required />
+            </div>
+            <div>
+              <label for="NomorTelfon">Nomor Telfon</label>
+              <input type="text" id="NomorTelfon" />
+            </div>
+            <div>
+              <p>Jenis Kelamin</p>
+              <input type="radio" id="male" name="gender" value="Male" />
+              <label for="male">Laki Laki</label>
+              <input type="radio" id="female" name="gender" value="Female" />
+              <label for="female">Perempuan</label>
+            </div>
+          <fieldset>
+            <legend>Kucing Favorit</legend>
+            <div>
+            <p>Kucing Favorit Kalian</p>
+            <input type="checkbox" id="ragdoll" name="cat-type" />
+            <label for="ragdoll">ragdoll</label>
+            <input type="checkbox" id="british-shorthair" name="cat-type" />
+            <label for="british-shorthair">british shorthair</label>
+            <input type="checkbox" id="persian" name="cat-type" />
+            <label for="persian">persian</label>
+            <input type="checkbox" id="etc" name="cat-type" />
+            <label for="etc">yang lainnya</label>
+            </div>
+            <div>
+              <p>Opini Kalian</p>
+              <textarea rows="4"></textarea>
+            </div>
+          </fieldset>
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+      <!-- Form Section End-->
     </main>
     <!-- Main Content End -->
   </body>
