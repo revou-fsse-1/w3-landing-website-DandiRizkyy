@@ -14,4 +14,26 @@
   .desktop {
     display: none;
   }
+
+  header h1 {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    margin-right: -99px;
+    margin-bottom: 5px;
+  }
+
+  header p {
+    display: flex;
+    justify-content: center;
+    margin-right: -91px;
+  }
+
+  #hero-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -106px;
+    margin-right: -83px;
+  }
 }
