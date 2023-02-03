@@ -214,6 +214,20 @@ section {
   display: block;
 }
 
+#form-section input[type="email"] {
+  width: 100%;
+  padding: 4px 0px;
+  margin: 8px 0;
+  display: block;
+}
+
+#form-section input[type="number"] {
+  width: 100%;
+  padding: 4px 0px;
+  margin: 8px 0;
+  display: block;
+}
+
 #form-section button {
   color: white;
   background-color: #bface2;
