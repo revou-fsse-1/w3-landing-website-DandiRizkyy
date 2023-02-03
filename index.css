@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@1,500&display=swap");
 
-/* default margin and padding for all pages */
+/* default margin for all pages */
 * {
   margin: 0px;
   scroll-behavior: smooth;
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Lato", "Poppins", sans-serif;
 }
 
 /* navbar style start */
@@ -55,12 +55,16 @@ main {
   padding-top: 70px;
 }
 
-header {
-  padding: 115px 0px 72px 123px;
+header h1 {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
 }
 
-h1 {
-  font-size: 28px;
+header p {
+  display: flex;
+  justify-content: center;
 }
 
 section {
@@ -69,8 +73,8 @@ section {
 
 #hero-button {
   display: flex;
-  padding: 12px 0px 72px 123px;
-  gap: 20px;
+  justify-content: center;
+  margin-bottom: -106px;
 }
 
 #hero-button-1 {
@@ -149,6 +153,10 @@ section {
 /* grid section end */
 
 /* brand section start */
+#brand-main h2 {
+  margin-top: -259px;
+}
+
 #brand-container {
   display: flex;
   justify-content: space-around;
@@ -166,6 +174,14 @@ section {
   display: flex;
   justify-content: center;
 }
+
+#video-section h2 {
+  margin-top: 11px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* video section end */
 
 /* form section start */
@@ -181,6 +197,11 @@ section {
 
 #form-section h2 {
   text-align: center;
+  margin-bottom: 13px;
+}
+
+#form-section h2 p {
+  margin-top: 8px;
 }
 
 #form-section input[type="text"] {
