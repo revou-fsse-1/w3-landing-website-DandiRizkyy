@@ -26,6 +26,13 @@ nav {
   padding-left: 4%;
 }
 
+.relative-container #alert {
+  position: absolute;
+  display: flex;
+  margin-top: 17px;
+  margin-left: -13px;
+}
+
 nav ul {
   display: flex;
   text-decoration: none;
